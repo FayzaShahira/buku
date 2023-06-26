@@ -20,7 +20,7 @@ try {
             $statement->bindParam(':jenis_kategori', $jenis_kategori);
 
             $statement->execute();
-            $response["message"] = "Data berhasil direcord";
+            $response["message"] = "Data berhasil diupdate";
         
     }
 }

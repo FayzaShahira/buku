@@ -74,7 +74,7 @@ try {
                 $statement->bindParam(':kode_kategori',$kode_kategori);
             }
             $statement->execute();
-            $response["message"] = "Data berhasil di ubah!";
+            $response["message"] = "Data berhasil diupdate";
         } else {
             $response["message"] = "Data tidak ditemukan!";
         }

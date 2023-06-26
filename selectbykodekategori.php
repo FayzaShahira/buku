@@ -18,7 +18,7 @@ try{
         echo json_encode($result, JSON_PRETTY_PRINT);
     } else {
         http_response_code(404);
-        $response["message"]="Informasi Kode kategori Tidak Ditemukan";
+        $response["message"]="Informasi kategori Tidak Ditemukan";
         echo json_encode($response, JSON_PRETTY_PRINT);
     }
 } catch (PDOException $e) {
